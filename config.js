@@ -7,8 +7,8 @@ global.audio= "" ;
 global.video= "" ;
 global.port =process.env.PORT 
 global.appUrl=process.env.APP_URL || ""     // put your deploy app/bot url here, for 24/7 for (render , koyeb, glitch)
-global.email ="saimsamsun789@gmail.com"
-global.location="Lahore,Pakistan."
+global.email ="shalindajagath62@gmail.com"
+global.location="kegalla,Sri lanka."
 
 
 global.mongodb= process.env.MONGODB_URI || "mongodb+srv://mohsin:mohsin@cluster0.iauaztt.mongodb.net/?retryWrites=true&w=majority"
@@ -21,12 +21,12 @@ global.github=process.env.GITHUB|| "https://github.com/GlobalTechInfo/SUHAIL-XMD
 global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029VarGi1SHVvTY5MUl0Y3S";
 global.website=process.env.GURL || "https://whatsapp.com/channel/0029VagJIAr3bbVBCpEkAM07" ; 
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://i.ibb.co/TgwRyHR/Ephoto360-com-166de101e03cd7.jpg" || "https://i.ibb.co/bH1kbX0/a4c0b1af253197d4837ff6760d5b81c0.jpg" ; // SET LOGO FOR IMAGE 
-global.caption = process.env.CAPTION || global.caption || "© GlobalTechInfo" 
+global.caption = process.env.CAPTION || global.caption || "© ShaliTechInfo" 
 
 
 global.devs = "" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "94769744126";
 
 
 
@@ -49,7 +49,7 @@ global.waPresence= process.env.WAPRESENCE ||  "null" ; // 'unavailable' | 'avail
 //========================= [ AUTO READ MSGS & CMDS ] =========================\\
 global.readcmds = process.env.READ_COMMAND || "false"
 global.readmessage = process.env.READ_MESSAGE || "false"
-global.readmessagefrom = process.env.READ_MESSAGE_FROM || "null,923xxxxxxxx";
+global.readmessagefrom = process.env.READ_MESSAGE_FROM || "null,94769744126";
 
 
 //========================= [ AUTO SAVE & READ STATUS ] =========================\\
@@ -77,7 +77,7 @@ module.exports = {
   author : process.env.PACK_AUTHER|| "",
   packname: process.env.PACK_NAME || "𝗦𝗛𝗔𝗟𝗜",
   botname : process.env.BOT_NAME  || "𝗦𝗛𝗔𝗟𝗜-MD",
-  ownername:process.env.OWNER_NAME|| "𝗦𝗛𝗔𝗟𝗜-X",
+  ownername:process.env.OWNER_NAME|| "𝗦𝗛𝗔𝗟𝗜",
 
 
   errorChat : process.env.ERROR_CHAT || "",
